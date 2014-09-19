@@ -13,6 +13,8 @@ ZSH_THEME="agnoster"
 alias dark='/home/aqua/Documents/gnome-terminal-colors-solarized/set_dark.sh'
 alias light='/home/aqua/Documents/gnome-terminal-colors-solarized/set_light.sh'
 alias bash="/home/aqua/Documents/gnome-terminal-colors-solarized/set_light.sh && exec bash"
+alias diskey="xinput float 11"
+alias enkey="xinput reattach 11 3"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -55,9 +57,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export PATH="/opt/ros/hydro/bin:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
-source ~/catkin_ws/devel/setup.zsh
-source ~/iarc_station/devel/setup.zsh
-source ~/iarc_uav/devel/setup.zsh
+#source ~/catkin_ws/devel/setup.zsh
+#source ~/iarc_station/devel/setup.zsh
+#source ~/iarc_uav/devel/setup.zsh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
